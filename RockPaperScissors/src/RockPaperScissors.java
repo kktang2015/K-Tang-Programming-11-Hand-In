@@ -71,16 +71,13 @@ public class RockPaperScissors {
         else if ((playerchoiceint == 2) && (computerint == 1))
         {
             System.out.println("You Win!");
-          // int  playerscorewin++;
-        }
+               }
         else
         {
             System.out.println("You Lose!");
-            //int playerscorelose++;
-        }
+               }
 
-       // System.out.print("Player Win Score: " + int playerscorewin + "\t");
-       // System.out.print("Player Win Score: " + int playerscorelose + "\t");
+
         System.out.print("Computer Choice: " + computerchoice + "\t");
         System.out.print("Player Choice: " + playerchoice);
     }
